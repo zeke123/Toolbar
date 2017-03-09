@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Toolbar</string>
+
+
+    <string name="toolbar_title">稀土掘金</string>
+    <string name="sub_title">简单介绍</string>
+
+</resources>

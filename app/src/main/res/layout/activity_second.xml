@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        toolbar:logo="@mipmap/ic_launcher"
+        toolbar:navigationIcon="@mipmap/ic_book_list"
+        toolbar:subtitle="小标题"
+        toolbar:theme="@style/CustomToolbarTheme"
+        toolbar:title="大标题"
+        toolbar:titleMarginStart="20dp"
+        toolbar:titleTextColor="@color/white">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="我的"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
